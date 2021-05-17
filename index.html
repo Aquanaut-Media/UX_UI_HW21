@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-
+<!--Roboto Font-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,300;1,500;1,900&display=swap" rel="stylesheet">
     <!-- Hotjar Tracking Code for https://aquanaut-media.github.io/UX_UI_HW21/ -->
 <script>
   (function(h,o,t,j,a,r){
@@ -29,76 +31,93 @@
 
   gtag('config', 'G-29XFR35HP1');
 </script>
-    <title>Bass Basics for Prospective Bass Players</title>
+    <title>Bass Basement</title>
+    <meta name="description" content="Bass Basics for Prospective Bassists">
+    <meta name="author" content="Grant Ertl">
 </head>
 <body>
 <header>
-    <div id="logo">I Am Become Bassist</div>
+    <div id="logo"><a href="index.html">Bass Basement</a></div>
     <ul class="nav justify-content-end">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link active" href="#">Learning the Fretboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="practice.html">Practice Tips</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="#">Starting a Band</a>
         </li>
       </ul>
 </header>
+<!--Hero Section-->
 <section id="hero">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Four Strings. Unlimited Potential</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          <img src="images/33-leland-sklar.jpeg" alt="Leland Sklar, bassist in Toto and session musician">
+          <div id="hero-copy">
+            <h1 class="hero-heading">Four Strings. <br> Unlimited Potential</h1>
+            <p class="lead">Welcome to the Bass Basement. The best place for those interested in playing the bass.</p>
+          </div>
+          <img src="images/leland_home_cover.png" width="60%" height="60%" alt="Leland Sklar, bassist in Toto and session musician">
         </div>
       </div>
 </section>
+<!--Spacer-->
 <div class="spacer"></div>
+<!--Practice-Tips-->
 <section id="practice-tips">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Best Practices for The Best Practice</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          <img src="images/PngItem_6499885.png">
+          <div id="practice-copy">
+          <h1 class="practice-hero-heading">Foundational <br> Grooves</h1>
+          <p class="subheading">We consulted some of the bass musicians in the world about how to become a solid player and achieve goals whether they be home recording, performing with a band, or just slapping out licks at home. If you’re ready to rock, then here’s where you should start.</p>
+          <br>
+          <a class="btn btn-primary" id="practice-btn" href="#" role="button">Getting Started</a>
+        </div>
+          <div id="transparent-bass">
+          <img src="images//bass-transparent-bkrnd.png" height="90%" width="90%">
+          </div>
         </div>
       </div>
 </section>
+<!--Fretboard-->
 <section id="learning-fretboard">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Learning the Fretboard</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          <img src="images/transparent-background-music-notes-1.png" height="100%" width="100%" alt="Musical notes">
+          <div class="image-start"><img src="images/transparent-background-music-notes-1.png" height="100%" width="100%" alt="Musical notes"></div>
+            <div id="fretboard-copy">
+            <h1 class="hero-heading">Learning the <br> Fretboard</h1>
+            <p class="subheading">Once you can navigate the fretboard with ease a whole new landscape opens up to you. Slapping and poppin’, picking, and just plucking along with your fingers is possible, but you gott know what to do with your other hand first!</p>
+            <br>
+          <a class="btn btn-primary" id="practice-btn" href="#" role="button">Getting Started</a>
+            </div>
         </div>
       </div> 
 </section>
+<!--Band-->
 <section id="starting-band">
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">How to Make Friends and Play Music Together</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-          <div id="weezer"><img src="/images/Weezer-1.jpeg" alt="Weezer, a band"></div>
+          <div id="band-copy">
+          <h1 class="hero-heading">Start yourself a band</h1>
+          <p class="subheading">So you can play some songs pretty well. Maybe you even wrote some. How do you find those other guys to fill out the rhythm and play the leads? Perhaps you want to find a singer? Worry not, we can help.</p>
+          <br>
+          <a class="btn btn-primary" id="practice-btn" href="#" role="button">Getting Started</a>
+        </div>
+          <div id="weezer"><img src="images/weezer-band.jpeg" width="90%" height="90%" alt="Weezer: a band"></div>
         </div>
       </div> 
 </section>
 <footer>
     <ul class="nav justify-content-center">
         <li class="nav-item">
-          <a class="nav-link active" href="#">Active</a>
+          <a class="nav-link active" href="#">Learning the Fretboard</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
+          <a class="nav-link" href="practice.html">Practice Tips</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+          <a class="nav-link" href="#">Starting a Band</a>
         </li>
       </ul>
 </footer>
