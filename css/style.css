@@ -83,7 +83,7 @@ header {
 }
 
 #practice-tips {
-    background-image: url(/images/abstract-bkgrnd.png);
+    background-image: url(../images/abstract-bkgrnd.png);
     background-position: center;
     background-size: cover;
     position: relative;
