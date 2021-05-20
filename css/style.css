@@ -138,6 +138,7 @@ header {
     background-color: #FFF5E9;
     margin-top: 80px;
     padding-bottom: 80px;
+    width: 100%;
 }
 
 
@@ -145,13 +146,13 @@ header {
     display: flex;
     flex-direction: column;
     color: #002774;
-    width: 50%;
+    width: 100%;
     margin: 30px;
 }
 
-#weezer img{
+#band-image img{
     filter: saturate(0);
-    object-fit: cover;
+    object-fit: scale-down;
 }
 
 footer {
@@ -289,6 +290,7 @@ footer {
   #schedule-copy {
       padding: 40px 100px 40px 35%;
       background-color: #fde6cc;
+
   }
 
 
@@ -306,8 +308,14 @@ footer {
 }
 
 #organize-copy {
- padding: 100px;
+ padding: 100px 100px 100px 35%;
 }
+
+@media only screen and (max-width: 1450px) {
+    #organize-copy {
+        padding: 100px 100px 100px 100px;
+       }
+
 
 #tools {
     display: flex;
@@ -316,6 +324,70 @@ footer {
     color: #002774;
     position: relative;
     background-color: #fde6cc;
+}
+
+}
+
+@media only screen and (max-width: 800px) {
+    #tools {
+        flex-direction: column;
+       }
+
+    #tools img {
+        width: 100%;
+    }
+
+    #organize {
+        flex-direction: column-reverse;
+        padding: 0px;
+    }
+    #organize img{
+        width: 100%;
+    }
+    #organize-copy {
+        padding: 10%;
+    
+    }
+    #practice-main-heading img{
+        position: relative;
+        left: 35%;
+        top: 130px;
+        display: block;
+
+    }
+    #practice-main-heading {
+        padding: 800px 10% 100px 10%;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: #FFF5E9;
+        position: relative;
+        height: 1000px;
+        color: #002774;
+      }
+      #practice-main-copy {
+        width: 100%;
+        padding-top: 50px;
+    }
+    #fretboard-top-right {
+        display: none;
+    }
+
+    
+
+    #fretboard-top {
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 0px;
+        width: 100%;
+    }
+    #fretboard-bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 #tools-copy {
@@ -335,8 +407,14 @@ footer {
 #fretboard-top-left {
     display: flex;
     flex-direction: column;
-    margin: 100px;
+    margin: 10%;
     width: 60%;
+}
+
+@media only screen and (max-width: 800px) {
+    #fretboard-top-left {
+        width: 100%
+    }
 }
 
 #fretboard-top-left h4{
@@ -359,21 +437,18 @@ footer {
 
 #fretboard-bottom {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
+    justify-content: center;
+    padding: 80px 10% 30px 10%;
+    color: #002774;
     background-color: #fde6cc;
 }
 
+#fretboard-bottom-left img{
+    object-fit: scale-down;
+}
+
 #fretboard-bottom-right {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 100px;
-    width: 40%;
 }
-
-#fretboard-bottom-left {
-    margin-left: 10%;
-    margin-top: 80px;
-}
-
